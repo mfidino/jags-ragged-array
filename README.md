@@ -15,13 +15,13 @@ If you have a lot of missing data it may be simpler to model
 the detection non-detection data in long-format (or a ragged array). `JAGS` does not allow for ragged arrays, but you can mimic them with the use of nested indexing in `JAGS`. The scripts
 here illustrate how you can do this.
 
-- ragged_array.R: This script simulates some detection / 
+- **ragged_array.R:** This script simulates some detection / 
 non-detection data and then incorporates a lot of missing data to 
 mimic uneven sampling across sites. We then convert the 
 detection / non-detection matrix and the detection covariates (which
 vary by site-visit) to long format to be analyzed in `JAGS`.
 
-- ragged_occupancy.R: This is the JAGS model fit to the data. The
+- **ragged_occupancy.R:** This is the JAGS model fit to the data. The
 only difference relative to your standard single-season occupancy
 model is the format of the detection model. Instead of looping through
 sites and visits it loops through each individual data point.
