@@ -39,9 +39,16 @@ to the occupancy status of the species at the site.
 
 
 Writing your model up in this fashion could potentially speed up
-your model runs.
+your model runs. Here is a comparison of the estimated parameter
+values from the model to the true parameter values I used
+to simulate the data in `ragged_array.R`.
 
 <div align="center"><img width="auto" height="auto" src="./model_output.jpeg" alt="Estimated values compared to true parameter values." /></div>
+
+The code is commented out in `ragged_array.R`, so should be
+pretty easy to follow along.
+
+<div align="center"><img width="100" height="auto" src="https://github.com/mfidino/CV/blob/master/Raccoon.png" alt="A line drawing of a raccoon standing up and waving that Mason made." /></div>
 
 
 
