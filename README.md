@@ -41,7 +41,7 @@ to the occupancy status of the species at the site.
 Writing your model up in this fashion could potentially speed up
 your model runs.
 
-<div align="center"><img width="300" height="auto" src="./model_output.png" alt="Estimated values compared to true parameter values." /></div>
+<div align="center"><img width="300" height="auto" src="./model_output.jpeg" alt="Estimated values compared to true parameter values." /></div>
 
 
 
